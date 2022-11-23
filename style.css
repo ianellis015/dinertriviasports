@@ -1,0 +1,104 @@
+
+body {
+		background: linear-gradient(Black, #0A216D);
+}
+
+
+h1 {
+	font-size: 500%;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	text-align: center;
+/*	margin: 20px;*/
+
+}
+
+h2 {
+	font-size: 300%;
+	font-family: 'Marck Script', cursive;
+	color: white;
+	position: relative;
+	top: -120px;
+}
+
+h3 {
+	position: relative;
+	top: -160px;
+}
+
+.diner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 100px;
+}
+.sports {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	min-height: 100px;
+	}
+
+.subheading {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	position: relative;
+	min-height: 100px;
+
+}
+
+
+
+button {
+	/*padding: 30px 50px;
+	margin: 40px 60px;*/
+	cursor: pointer;
+	/*display: inline-block;*/
+	font-family: 'Bebas Neue', cursive;
+	color: #FFF;
+	background-color: #140BB4;
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+	position: relative;
+	top: -200px;
+}
+
+button:hover {
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	-moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	-o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+
+.cover {
+	width: 100% ;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	min-height: 200px;
+	top: -225px;
+}
+
+
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	min-height: 100px;
+	top: 20px;
+}
+@media screen and (max-width: 400px) 

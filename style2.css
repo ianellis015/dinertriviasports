@@ -1,0 +1,30 @@
+body {
+	background: linear-gradient(Black, #0A216D);
+}
+
+p {
+	display: flex;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	justify-content: center;
+	align-content: center;
+
+}
+
+
+.btn  {
+	display: flex;
+	justify-content: center;
+}
+
+input[type=button] {
+		cursor: pointer;
+	font-family: 'Bebas Neue', cursive;
+	color: #FFF;
+	background-color: #140BB4;
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+}
